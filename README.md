@@ -6,5 +6,7 @@ This is a slidedeck using impress.js (a Prezi-like HTML5 framework). I appropria
 ============
 
 Links:
-http://openbadges.org
+
+http://openbadges.org 
+
 http://bartaz.github.com/impress.js/
