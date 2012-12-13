@@ -10,7 +10,7 @@
     <meta name="description" content="Openness and Innovation: Learning Webmaking with Mozilla" />
     <meta name="author" content="Laura Hilliger" />
 <!-- This presentation uses the totally awesome impress.js from @bartaz. Fork it yourself here:https://github.com/bartaz/impress.js/ -->
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
+<!--   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'> -->
     <link href="styles/styles_impress.css" rel="stylesheet" />
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.png" />
@@ -54,16 +54,16 @@
         It will not be rotated or scaled.
         
     -->
-    <div class="step slide" data-x="-1000" data-y="-1500">
-    <p align="center"><img src="images/openbadges-badge.png" width="300px" align="center" /></p>
-        <q align="center" style="width:900px;font-size:150%;"><strong>Open Badges:</strong> an overview</q>
+    <div id="title" class="step slide" data-x="-1000" data-y="-1500">
+    <p align="center"><img src="images/openbadges-badge.png" alt="Badge" width="300px" /></p>
+        <p align="center" style="width:900px;font-size:150%;line-height:1em;">e-Portfolios<br />and<br /><strong>Open Badges</strong></p>
         
     </div>
     
 
-     <div class="step" data-x="0" data-y="-1500">
+     <div id="Doug" class="step" data-x="0" data-y="-1500">
      <img src="images/doug.jpg" width="260px" />
-        <p class="intro"><strong>Doug Belshaw</strong><br /> Badges & Skills Lead <br /><strong>Mozilla Foundation</strong><br />
+        <p class="intro"><strong>Dr. Doug Belshaw</strong><br /> Badges & Skills Lead <br /><strong>Mozilla Foundation</strong><br />
         Twitter: @dajbelshaw<br />
         Email: doug@mozillafoundation.org
         </p>
@@ -84,18 +84,18 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
-    <div class="step positioning" data-x="0" data-y="-1000">
+    <div id="firefox" class="step positioning" data-x="0" data-y="-1000">
     <img src="images/Fx-logo.png" alt="Fx-logo" width="500" height="500">
         <blockquote>Mozilla - they make <strong>Firefox</strong>, right?</blockquote>
     </div>
 
-<div id="imagination" class="step" data-x="800" data-y="-1000">
+<div align="center" id="video" class="step" data-x="800" data-y="-1000">
         <video width="640" height="360" controls="controls">
 	        <source src="images/mozstory.mp4" type="video/mp4">
 	        <source src="images/mozstory.webm" type="video/webm">
 	        Your browser does not support the video tag.
 </video> 
-<q>The Mozilla story</q>
+<p align="center">The Mozilla story</p>
     </div>
     <!--
         
@@ -108,87 +108,127 @@
         
     -->>
     
-    <div class="step" data-x="0" data-y="500" data-scale="3">
+    <div id="about-mozilla" class="step" data-x="0" data-y="500" data-scale="3">
         <img src="images/mozilla-logo-white.png" width="600px"/>
       <p>is a <strong>mission driven, non-profit</strong> organization.</p>
       <blockquote>Mozilla's mission is to promote openness, innovation and opportunity on the web.</blockquote> - <a href="http://www.mozilla.org/about/mission.html" target="_blank">The Mozilla Mission</a>
     </div>
     
-    
-     <div class="step" data-x="1500" data-y="1500">
-        <a href="http://openbadges.org"><img src="images/openbadges.jpg" alt="Open Badges website" /></a>
+  <div id="eportfolio" class="step" data-x="1500" data-y="500">
+       <blockquote>An e-portfolio is a purposeful aggregation of digital items - ideas, evidence, reflections, feedback etc. which ‘presents’ a selected audience with evidence of a person's learning and/or ability.</blockquote>
+       <p align="right">(JISC website)</p>
     </div>
     
-     <div class="step" data-x="1500" data-y="2250">
+      <div id="Leap2A" class="step" data-x="2500" data-y="500">
+        <p style="font-size:4em;">Leap2A</p>
+	    <p style="font-size:4em;color:#FFCC00;"><-------></p>  
+    </div>    
+    
+      <div id="tick" class="step" data-x="1500" data-y="1000" data-scale="0.5">
+        <p align="center"><img src="images/tick.png" alt="Tick"></p>
+	    <p align="center">Open specification for transferring learner-owned information between different systems</p>  
+    </div>     
+
+      <div id="question" class="step" data-x="2000" data-y="1000" data-scale="0.5">
+        <p align="center"><img src="images/question-mark.png" alt="Question mark"></p>
+	    <p align="center">Open specification for displaying learners’ achievements across the Web</p>  
+    </div>
+
+      <div id="silos" class="step" data-x="500" data-y="1800" data-scale="0.5">
+        <img src="images/silos.png" width="600px" alt="Silos" align="right" />
+        <div align="center" style="font-size:2em; align="left">Silos</div>
+    </div>
+    
+      <div id="open-badges-site" class="step" data-x="1500" data-y="1500">
+        <a href="http://openbadges.org"><img src="images/openbadges.jpg" alt="Open Badges website" /></a>
+    </div>
+
+    
+     <div id="mozfest-2010" class="step" data-x="1500" data-y="2250">
         <a href="http://openbadges.org"><img src="images/mozfest-2010.jpg" alt="MozFest 2010: Learning, Freedom and the" /></a>
     </div>
     
-        <div class="step" data-x="2000" data-y="2600">
+        <div id="badges-for-learning" class="step" data-x="1600" data-y="2250" data-rotate-z="90" data-scale="0.5"">
       <blockquote>What if we used <strong>badges</strong> for learning?</blockquote>
     </div>
 
-        <div class="step" data-x="2300" data-y="3200" data-scale="3">
-	        <img src="images/openbadges-badge.png" width="300px" />
+        <div id="digital-badges" class="step" data-x="2300" data-y="3350" data-scale="3">
+	        <img src="images/openbadges-badge.png" alt="Open Badges" width="300px" />
       <blockquote>Not just digital badges but <strong>Open Badges?</strong></blockquote>
     </div>   
     
-        <div class="step" data-x="2300" data-y="2200" data-scale="1">
-	        <img src="images/metadata.png" width="1000px" />
+        <div id="metadata" class="step" data-x="2300" data-y="2200" data-scale="1">
+	        <img src="images/metadata.png" alt="Metadata" width="1000px" />
 	        <q><strong>Open Badges</strong> are images with metadata <strong>hard-coded</strong> into them</q>
     </div> 
     
-        <div class="step" data-x="2800" data-y="3000">
+        <div id="visual-representations" class="step" data-x="2600" data-y="3100">
 	        <img src="images/badge.png" width="500px" alt="Badges"/>
 	        <br />
 	        <q>Visual representations of <strong>achievements, learning, skills, interests, competencies</strong></q>
 
     </div>              
 
-        <div class="step huge" data-x="4750" data-y="3500" data-scale="3">
-	        <img src="images/badges.png" width="500px" />
+        <div id="soft-skills" class="step huge" data-x="4750" data-y="3500" data-scale="3">
+	        <img src="images/badges.png" alt="badges" width="500px" />
 	        <br />
-	        <q>They can represent <strong>hard & soft</strong> skills, <strong>peer assessment</strong>, and stackable <strong>lifelong</strong> learning </q>
+	        <p align="center" style="font-size:0.8em;">They can represent <strong>hard & soft</strong> skills, <strong>peer assessment</strong>, and stackable <strong>lifelong</strong> learning </q>
     </div>       
 
-        <div class="step" data-x="5750" data-y="3000" data-scale="1">
-	        <img src="images/badge-question.png" width="400px" alt="Badge question"/>
-	        <br />
-	        <q><strong>Open Badges?</strong><br />
-(What about degrees, certificates, diplomas?)</q>
+        <div id="badge-question" class="step" data-x="5750" data-y="3000" data-scale="2">
+	        <div align="center"><img src="images/badge-question.png" width="200px" alt="Badge question"/></div>
+	        <p align="center"><strong>Open Badges?</strong></p>
+<p align="center" style="font-size:0.7em;">(What about degrees, certificates, diplomas?)</p>
     </div>  
     
-    <div class="step" data-x="5950" data-y="3400">
+    <div id="both-and" class="step" data-x="5950" data-y="3600" data-scale="1">
         <blockquote>Not simply either/or — <strong>both/and!</strong></blockquote>
     </div>         
     
-        <div class="step" data-x="7750" data-y="3500" data-scale="3">
+        <div id="badge-diagram-1" class="step" data-x="7750" data-y="3500" data-scale="3">
 	        <img src="images/badge-diagram-01.png" width="900px" alt="Badge diagram - 1"/>
     </div>         
     
-        <div class="step" data-x="7750" data-y="5550" data-scale="3">
+        <div id="badge-diagram-2" class="step" data-x="7750" data-y="5550" data-scale="3">
 	        <img src="images/badge-diagram-03.png" width="900px" alt="Badge diagram - 2"/>
     </div>     
 
-        <div class="step" data-x="7750" data-y="7500" data-scale="3">
+        <div id="badge-diagram-3" class="step" data-x="7750" data-y="7500" data-scale="3">
 	        <img src="images/badge-diagram-04.png" width="900px" alt="Badge diagram - 3"/>
     </div>     
 
-        <div class="step" data-x="5000" data-y="6500" data-scale="2">
+        <div id="badge-backpack" class="step" data-x="5000" data-y="6500" data-scale="2">
 	        <img src="images/badge-backpack.png" width="900px" alt="Badge Backpack"/>
 	        <q>Doug's Open Badges backpack</q>
     </div>  
     
-            <div class="step" data-x="5000" data-y="5250" data-scale="1">
-	        <img src="images/badge-backpack.png" width="900px" alt="Badge Backpack"/>
-	        <q>Example of an Open Badge in a backpack</q>
+            <div id="badge-in-backpack" class="step" data-x="5000" data-y="5250" data-scale="1">
+	        <img src="images/badge-in-backpack.png" width="900px" alt="Badge Backpack"/>
+	        <p style="font-size:0.9em;">Example of an Open Badge in a backpack</p>
     </div>        
 
-         <div class="step huge" data-x="6000" data-y="750" data-scale="8">
+         <div id="doing-good" class="step huge" data-x="5700" data-y="850" data-scale="8">
       <h1>We are
 <img width="600px" alt="Mozilla" src="images/mozilla-logo-white.png">
 </h1>
 <h2>Doing good is part of our code</h2>
     </div>
+
+<div id="workshop" class="step" data-x="7750" data-y="1850" data-scale="2">
+<div align="center"><img src="images/doug-workshop.jpg" alt="Doug running workshop" style="border:1px white solid;" width="600px" /></div>
+<p align="center" style="font-size:0.8em;">Come to the Open Badges workshop!</p>
+</div>
+    
+<div id="contact" class="step" data-x="9500" data-y="50" data-rotate-z="270" data-scale="4">
+<img src="images/doug.jpg" alt="Doug" style="float:right;border:1px white solid;" width="200px" />
+<h1>Ask me hard questions!</h1>
+<ul>
+<li>Now!</li>
+<li>Via email: <a href="mailto:doug@mozillafoundation.org">doug@mozillafoundation.org</a></li>
+<li>Via twitter: <a href="http://twitter.com/dajbelshaw">@dajbelshaw</a> <em style="font-size:0.5em;">(but not until January 2013!)</em>
+</ul>
+    </div>
+    
     <!--
         
         And the last one shows full power and flexibility of impress.js.
@@ -217,7 +257,7 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="0" data-y="0" data-scale="10">
+    <div id="overview" class="step" data-x="3000" data-y="3000" data-scale="15">
     </div>
 
 </div>
